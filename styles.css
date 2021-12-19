@@ -1,0 +1,239 @@
+
+
+
+nav {
+    display: flex;
+    top: 0%;
+    width: 100%;
+    position: fixed;
+    margin-left: 0px;
+    background-color:rgb(149, 185, 206);
+
+}
+.topnav {
+    width: 100%;
+    text-align: center;
+    position:sticky;
+    top:0;
+    opacity: 100%;
+    
+
+}
+
+.background{
+    background-color:rgb(166, 237, 255) ;
+}
+
+.topnav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.topnav ul li a {
+    background-color:rgb(149, 185, 206) ;
+    text-decoration: none ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.topnav ul li a:hover {
+    background-color:grey ;
+    color:rgba(0, 255, 255, 0.712) ;
+}
+.active {
+    color:rgb(177, 82, 255) ;
+}
+
+body {
+    background-color: rgb(166, 237, 255);
+    width: 100%;
+    margin:0;
+
+}
+
+.section {
+    width: 100%;
+    padding: 50px;
+    height: 290px;
+    font-size: flex;
+    text-align: center;
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #searchBar {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #five {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+  
+  #five th, #five td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  #five tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #five tr.header, #five tr:hover {
+    background-color: #f1f1f1;
+
+  }
+.banner{
+    position: relative;
+    height: 550px;
+    width: 100%;
+    padding: 20px;
+    background: black; 
+    background-image: url("banner.jpg") ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.banner h1{
+    margin-top: 200px;
+    font-size: auto;
+    animation: title 1.2s forwards linear
+}
+
+p {
+    color: rgb(0, 0, 0) ;
+    font-family: 'Assistant';
+    font-style:round ;
+    font-weight: lighter;
+    font-size: 20px ;
+    text-align: center;
+}
+
+
+ul{
+    margin-left: 7vw;
+    color: rgb(0, 0, 0) ;
+    font-family: 'Assistant';
+    font-style:normal ;
+    font-size: 14px ;
+    list-style: none;
+}
+
+.centervid{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.center{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.left{
+    margin-left: 5%;
+    height: 25%;
+}
+
+.centerimg{
+    margin-left: 30%;
+    margin-right: 30%;    
+}
+
+.centerForm{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px; 
+}
+
+.background{
+    background-color: rgb(255, 254, 254);
+    width: 100%;
+    height: auto;
+}
+
+.hide {
+    display: none;
+}
+
+.myDIV:hover + .hide {
+    display: block;
+    color:rgb(177, 82, 255)
+    
+}
+
+table,th,td{
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+}
+
+th{
+    font-weight: bold;
+}
+
+.buttonTable{
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.scrollable{
+    width: 200px;
+    height: 400px;
+    overflow: auto;
+}
+
+.button {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.button:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+.padding{
+    margin-bottom: 5px;
+}
